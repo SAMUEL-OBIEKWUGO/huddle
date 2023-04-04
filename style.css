@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    /* border: 1px solid red; */
+    /* height: 10rem; */
+    background: url('assets/bg-hero-mobile.svg') #9ee8e8 no-repeat;
+}
+
+nav{
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    margin-top: 1rem;
+}
+
+nav button{
+    background-color: #fefefe;
+    border-radius: 18px;
+    width: 28%;
+    padding: 5px;
+    border: white;
+    box-shadow: -1px 2px 10px 1px gray;
+}
+
+nav img{
+    width: 15rem;
+}
+
+/* Hero section */
+.hero-section{
+    /* border: 2px solid black; */
+    /* margin-top: 4rem; */
+    text-align: center;
+    /* padding: 0 2rem 2rem; */
+}
+
+.hero-section h2{
+    /* text-align: center; */
+    width: 75%;
+    margin: auto;
+    line-height: 2rem;
+}
+
+.hero-section p{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid blue;
+    margin-top: 1.3rem;
+    line-height: 1.3rem;
+}
+
+.hero-content > button{
+    margin: 2rem 0 3rem 0;
+    height: 2.3rem;
+    border-radius: 10rem;
+    width: 60%;
+    border: none;
+    color: #ffd0ff;
+    background-color: hsl(322, 100%, 66%);
+}
+
+.hero-section img{
+    width: 19rem;
+    margin-bottom: 3rem;
+}
