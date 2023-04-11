@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../HTML TASK 2"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../bootstrap"
+		},
+		{
+			"path": "../HTML TASK 4"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "HTML TASK 3"
+	}
+}
