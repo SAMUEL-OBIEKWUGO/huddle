@@ -260,6 +260,10 @@ main{
         display: flex;
     }
 
+    .general .social {
+        margin-left: 20rem;
+    }
+
     .icon{
         width: 40%;
     }
@@ -268,5 +272,10 @@ main{
         display: flex;
         padding-left: 1rem;
         gap: 5rem;
+        margin-top: -1rem;
+    }
+
+    .copyright{
+        text-align: right;
     }
 }
