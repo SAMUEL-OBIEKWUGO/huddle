@@ -10,13 +10,10 @@
 }
 
 header{
-    /* border: 1px solid red; */
-    /* height: 10rem; */
     background: url('assets/bg-hero-mobile.svg') #ECF9FF no-repeat;
 }
 
 nav{
-    border: 1px solid green;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,7 +26,6 @@ nav button{
     border-radius: 18px;
     width: 28%;
     padding: 5px;
-    border: white;
     box-shadow: -1px 2px 10px 1px gray;
 }
 
@@ -39,14 +35,10 @@ nav img{
 
 /* Hero section */
 .hero-section{
-    /* border: 2px solid black; */
-    /* margin-top: 4rem; */
     text-align: center;
-    /* padding: 0 2rem 2rem; */
 }
 
 .hero-section h2{
-    /* text-align: center; */
     width: 75%;
     margin: auto;
     line-height: 2rem;
@@ -56,7 +48,6 @@ nav img{
     width: 70%;
     margin: auto;
     text-align: center;
-    border: 1px solid blue;
     margin-top: 1.3rem;
     line-height: 1.3rem;
 }
@@ -82,7 +73,6 @@ main{
 }
 
 .cards{
-    /* border: 1px solid red; */
     padding: 3rem;
     text-align: center;
     box-shadow: -1px 1px 5px rgb(226, 225, 225);
@@ -91,7 +81,6 @@ main{
 }
 
 .cards img{
-    /* border: 1px solid black; */
     width: 100%;
 }
 
@@ -112,7 +101,7 @@ main{
     padding: 3rem;
     background-color: rgba(255, 255, 255, 0.95);
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 14rem;
     color: hsl(208, 11%, 55%);
     font-size: .5rem;
     width: 100%;
@@ -136,66 +125,148 @@ main{
 .footer{
     background-color: hsla(192, 100%, 9%);
     color: white;
-    height: 50rem;
-    margin-top: 12rem;
+    height: 45rem;
 }
 
-.footer-img{
-    margin-left: .5rem;
-    width: 10%;
-    height: 40px;
-}
-
-.icon{
+.general{
     margin-top: 2rem;
-    width: 100%;
-    height: 70px;
 }
 
-.location-p{
-    width: 70%;
-   margin-left: 4rem;
-   margin-top: -2.5rem;
+.footerLogo img{
+    width: 125px;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.don{
+   display: flex;
+   gap: 1.5rem;
 }
 
 .phone{
-  margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
-.phone-number{
-    margin-top: -1.5rem;
-    margin-left: 3rem;
+.location{
+    margin-bottom: 1rem;
 }
 
-.mail{
-    margin-top: 1.5rem;
-    width: 35px;
-}
-
-.email{
-    margin-top: -1.5rem;
-    margin-left: 3rem;
-}
 
 .social{
     text-align: center;
-    margin-top: -3rem;
 }
 
 .social img{
-    /* background-color: hsla(192, 100%, 9%); */
-    /* color: white; */
     width: 30px;
     border-radius: 2rem;
-    /* text-align: center; */
-
-    /* display: flex; */
 }
 
 .footer-p{
-   margin-top: 13rem;
+   margin-top: 2rem;
    margin-bottom: 5rem;
    font-size: 1.2rem;
-   /* display: flex; */
   line-height: 2rem;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+
+@media screen and (min-width: 768px){
+    nav img{
+        width: 10rem;
+    }
+
+    .hero-section{
+        display: flex;
+    }
+
+    .hero-section img{
+        width: 50%;
+        padding-top: 1rem;
+    }
+
+    .hero-content{
+        text-align: left;
+        padding-top: 1rem;
+        margin-top: 5rem;
+    }
+
+    .hero-content p{
+        text-align: left;
+        margin-left: 2.5rem;
+    }
+
+    .hero-content h2{
+        margin-left: 2.5rem;
+    }
+
+    .hero-content button{
+        margin-left: 2.5rem;
+    }
+
+    .card-1{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 5rem;
+    }
+
+    .grow{
+        text-align: left;
+        line-height: .5rem;
+        margin-top: 10rem;
+    }
+
+    .card-1 img{
+        width: 45%;
+    }
+
+    .card-2{
+        display: flex;
+        gap: 5rem;
+    }
+
+    .card-2 img{
+        width: 45%;
+    }
+
+    .flowing{
+        text-align: left;
+        line-height: .5rem;
+        margin-top: 7rem;
+    }
+
+    .card-3{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 5rem;
+    }
+
+    .card-3 img{
+        width: 45%;
+    }
+
+    .user{
+        text-align: left;
+        margin-top: 7rem;
+    }
+    .footer{
+        height: 30rem;
+    }
+
+    .general{
+        display: flex;
+    }
+
+    .icon{
+        width: 40%;
+    }
+
+    .footer-p{
+        display: flex;
+        padding-left: 1rem;
+        gap: 5rem;
+    }
 }
