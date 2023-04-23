@@ -280,6 +280,12 @@ main{
         width: 40%;
     }
 
+    .footer{
+        background-color: hsla(192, 100%, 9%);
+        color: white;
+        height: 30rem;
+    }
+
     .footer-p{
         display: flex;
         padding-left: 1rem;
